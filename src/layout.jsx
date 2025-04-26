@@ -3,6 +3,7 @@ import Sidebar from './components/Sidebar'
 import MainContent from './components/MainContent'
 import Footer from './components/Footer'
 import Banner from './components/Banner'
+import WebsiteSection from './components/Section'
 
 export default function Layout() {
   return (
@@ -20,9 +21,10 @@ export default function Layout() {
         {/* Main Content */}
         <main className="flex-1 p-4">
           <MainContent />
+          
         </main>
       </div>
-
+      <WebsiteSection/>
       {/* Footer */}
       <Footer />
     </div>
