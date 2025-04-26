@@ -10,7 +10,7 @@ export default function Layout() {
       <Header />
 
       {/* Nội dung chính */}
-      <div className="flex flex-1 bg-gray-100">
+      <div className="flex flex-1 bg-gray-100 pl-100 pr-100">
         {/* Sidebar */}
         <aside className="w-1/5 bg-white border-r">
           <Sidebar />
